@@ -1,11 +1,11 @@
 {
-  "name": "projeto_igreja",
+  "name": "exit",
   "version": "1.0.0",
   "description": "projeto membros cadastro",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node main.js"
+    "start": "node index.js"
   },
   "author": "Erasmo Cardoso",
   "license": "ISC",
@@ -19,5 +19,13 @@
     "session": "^0.1.0",
     "sqlite3": "^5.1.4",
     "sqllite": "^1.1.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erascardsilva/projeto_igreja.git"
+  },
+  "bugs": {
+    "url": "https://github.com/erascardsilva/projeto_igreja/issues"
+  },
+  "homepage": "https://github.com/erascardsilva/projeto_igreja#readme"
 }
