@@ -1,0 +1,7 @@
+version: '3'
+services:
+  projeto: 
+    build:
+      context: ./docker
+      dockerfile: Dockerfile
+    

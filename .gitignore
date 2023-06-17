@@ -1,0 +1,17 @@
+/dist
+/build
+node_modules
+
+*.log
+.tmp
+*.js.map
+*.tsbuildinfo
+.vscode
+.idea
+*.sublime-project
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
