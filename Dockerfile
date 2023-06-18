@@ -1,9 +1,9 @@
-FROM node:16
+FROM node:latest
 
 WORKDIR /app
 
 # Copia o arquivo package.json para o diretório /app
-COPY ./package.json ./app
+COPY /dock/package.json /app
 
 # Instala as dependências do projeto
 RUN npm install
@@ -14,7 +14,3 @@ COPY . .
 EXPOSE 3000
 
 CMD ["npm", "start"]
-
-
-
-
