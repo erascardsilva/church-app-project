@@ -3,6 +3,9 @@
  Node.js | express | Sqlite3 | Sequelize 
  Ja funcional entrada de dados no banco de dados , verificação de dados gravados , mensagens biblicas na abertura
  do App e efeitos de transição do menu
+ comandos:
+  docker build -t nome_projeto:01 .
+  docker run -t -p 3000:3000 -v "caminho"/:/app "nome_projeto"
  ___________________________________________________________________________________________________________________
  
  Ingles
@@ -11,6 +14,9 @@
  Node.js | express | Sqlite3 | sequelize
  Already functional data entry in the database, verification of recorded data, biblical messages in the opening
  App and menu transition effects
+ commands:
+  docker build -t project_name:01 .
+  docker run -t -p 3000:3000 -v "path"/:/app "project_name"
 ____________________________________________________________________________________________________________________
 
 ![image](https://user-images.githubusercontent.com/70297459/220531343-d1c70607-c63f-48ba-a43f-e62f9af4065d.png)
