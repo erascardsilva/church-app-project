@@ -2,9 +2,9 @@
  IProjeto em andamento (Construção)  "WebApp em nodeJS para cadastro de pessoas com banco de dados"
  Node.js | express | Sqlite3 | Sequelize 
  Ja funcional entrada de dados no banco de dados , verificação de dados gravados , mensagens biblicas na abertura
- do App e efeitos de transição do menu
- comandos:
-  docker build -t nome_projeto:01 .
+ do App e efeitos de transição do menu<br>
+ comandos:<br>
+  docker build -t nome_projeto:01 .<br>
   docker run -t -p 3000:3000 -v "caminho"/:/app "nome_projeto"
  ___________________________________________________________________________________________________________________
  
@@ -13,9 +13,9 @@
  Ongoing Project (Construction) "WebApp in nodeJS to register people with database"
  Node.js | express | Sqlite3 | sequelize
  Already functional data entry in the database, verification of recorded data, biblical messages in the opening
- App and menu transition effects
- commands:
-  docker build -t project_name:01 .
+ App and menu transition effects<br>
+ commands:<br>
+  docker build -t project_name:01 .<br>
   docker run -t -p 3000:3000 -v "path"/:/app "project_name"
 ____________________________________________________________________________________________________________________
 
